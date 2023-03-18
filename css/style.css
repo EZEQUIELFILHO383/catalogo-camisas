@@ -30,6 +30,7 @@ p {
 
 button {
     margin: 20px;
+    margin-left: 80px;
     padding: 20px;
     width: 260px;
     background: var(--text-color);
