@@ -24,12 +24,23 @@ h1 {
 }
 
 button {
-    margin: 12px;
+    margin: 20px;
+    padding: 20px;
+    width: 260px;
+    background: var(--text-color);
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+span {
+    font-size: 25px;
+    margin-left: 50px;
+    color: var(--back-color);
 }
 
 .buttons {
-    text-align: center;
     padding: 20px;
-    color: #FFF;
-
+    float: none;
+    display: inline-block;
 }
